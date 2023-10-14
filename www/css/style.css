@@ -1,0 +1,148 @@
+#map_canvas {
+    position: absolute; 
+    width:100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0;   
+    z-index: -1
+}
+#table_head{
+    position: fixed;
+     width: 100%;
+     background: #000;
+    color: #fff;
+}
+
+
+#main_table{
+    height: 400px;
+    margin-top: 10px;
+    overflow-y: auto;
+    width: 100%;
+    background: #fff;
+}
+
+.tcf{
+    font-size: 12px;
+}
+.search-input-map{
+    width:60%;
+    z-index:1;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.par-search{
+    margin-top:10%
+}
+.par-buttons{
+    position: absolute; 
+    text-align: center; 
+    width:100%; 
+    bottom:0px
+}
+
+.btn-delete{
+    z-index:1
+}
+
+.btn-distance{
+    z-index:1; margin-left: 5px;
+}
+
+
+//////////////////////////////////////////////////
+
+#pic_container{
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin: auto;
+}
+
+/*Backgrounds*/
+#mypage .page__background{
+     background: linear-gradient(to bottom right, #f2f2f2, #002060);
+}
+
+
+#pic_container {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+#iiframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+#i2frame {
+    width: 100%;
+    height: 100%;
+}
+
+
+#shuttle_info_page li {
+    font-size: 12px;
+}
+
+#shuttle_info_page {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/*Backgrounds*/
+
+
+#mylibrarypage .page__background {
+    background: -webkit-linear-gradient(left top, #f2f2f2, #002060);
+}
+
+
+/*Carousel CSS*/
+
+ons-carousel-item {
+    display: table;
+    text-align: center;
+}
+
+.item-label {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    line-height: 1;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.cover-label {
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    bottom: 10px;
+    color: white;
+}
+
+ul.a{
+    list-style-type: square;
+   
+    
+}
+
+.page--full_bg__background {
+    background: url('https://raw.githubusercontent.com/ATAL-CLUB/ATAL-Hybrid-App/master/www/images/test2.png')
+    no-repeat center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

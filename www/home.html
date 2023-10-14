@@ -1,0 +1,32 @@
+ <ons-page id="mypage">
+          <ons-toolbar>
+        <div class="left" >
+            <ons-toolbar-button ng-click="slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
+        </div>
+        <div class="center"style="color:#002060;">
+          ATAL CLUB
+        </div>
+      </ons-toolbar>
+        
+        <img type="image" src="images/uwl_log_soc.png"   height="50" align="middle" class="center" style="margin-top: 20px">
+        <img type="image" src="images/my_image.png"  width="50" height="50" align="middle" class="center" style="margin-top: 20px">
+        
+        <div id="pic_container" style="text-align: center;" >
+         <div class="btn-group" style="margin-top: 30px">
+            <input type="image" src="images/uwlmap.png" alt="Submit" width="90" height="90" onclick="slidingMenu.setMainPage('map.html')">
+            <input type="image" src="images/bus_info.png" alt="Submit" width="90" height="90" onclick="slidingMenu.setMainPage('shuttle_bus_info.html')">
+            <input type="image" src="images/library.png" alt="Submit" width="90" height="90"  onclick="slidingMenu.setMainPage('library.html')">
+        </div>
+          <div class="btn-group">
+            <input type="image" src="images/wifi.png" alt="Submit" width="90" height="90"  onclick="slidingMenu.setMainPage('wifi.html')">
+            <input type="image" src="images/uwlsu.png" alt="Submit" width="90" height="90" onclick="slidingMenu.setMainPage('events.html')">
+            <input type="image" src="images/information.png" alt="Submit" width="90" height="90" onclick="slidingMenu.setMainPage('information.html')">
+        </div>
+          <div class="btn-group">
+            <input type="image" src="images/contact.png" alt="Submit" width="90" height="90" onclick="slidingMenu.setMainPage('contact_info.html')">
+            <input type="image" src="images/uwl_food.png" alt="Submit" width="90" height="90" onclick="slidingMenu.setMainPage('uwl_food.html')">
+            <input type="image" src="images/bot_icon.png" alt="Submit" width="90" height="90" onclick="window.open('http://m.me/uwlbot', '_system', 'location=yes'); return false;">
+        </div>
+            </div>
+        
+    </ons-page>
